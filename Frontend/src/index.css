@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@font-face {
+  font-family:"Outfit";
+  src: url('./assets/Outfit-VariableFont_wght.ttf');
+};
+
+*{
+  font-family: "Outfit", sans-serif;
+};
+
+
+textarea::placeholder {
+  @apply pl-6;
+  @apply pt-1;
+}
